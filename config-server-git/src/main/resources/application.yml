@@ -11,7 +11,5 @@ spring:
           #username: someUser
           #password: somePwd
           search-paths:
-          - 'cloud-config-git'
-          - 'cloud-config-git/src/main/resources/config'
-          - 'cloud-config-git/src/main/resources/config/station*'
-          
+          - '/_config-git-files'
+          - '/_config-git-files/station*'
